@@ -37,6 +37,12 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 0 }}>
+            <img
+                src={profileimg}
+                alt="home pic"
+                className="profile"
+                style={{ maxHeight: "450px" }}
+              />
               <div class="photo-container">
               <div class="rect-wall"></div>
               <img src={profileimg} alt="Profile Photo" className="profile-photo" />

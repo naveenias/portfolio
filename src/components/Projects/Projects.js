@@ -1,7 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
@@ -154,21 +152,7 @@ function Projects() {
         <Card.Text style={{ textAlign: "justify" }}>
         Developed a comprehensive tuition management system for a client. Implemented admin and student login functionalities. Admin functionalities included student registration, teacher registration, adding attendance, adding marks. Integrated feature for sending absent messages to parents using Twilio API. Provided student functionalities to view personal details, marks, and attendance. Technologies used: MongoDB, Express.js, React.js, Node.js, Twilio API.
         </Card.Text>
-        <Button variant="primary" href="https://github.com/naveenias/vijaystution.git" target="_blank">
-          <BsGithub /> &nbsp;
-          GitHub
-        </Button>
-        {"\n"}
-        {"\n"}
-        <Button
-            variant="primary"
-            href="https://vjsmukyapranastudyzone.vercel.app"
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
+        
      
       </Card.Body>
       </div>
