@@ -4,11 +4,10 @@ import profileimg from "../../Assets/profileimg.png";
 import Particle from "../Particle";
 import Type from "./Type";
 import { SiGmail } from "react-icons/si";
-
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaPhone } from "react-icons/fa";
+import { FaLinkedinIn, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -56,17 +55,101 @@ function Home() {
                 Feel free to <span className="purple">connect </span>with me
               </p>
               <ul className="home-about-social-links">
+                
                 <li className="social-icons">
                   <a
+                    href="mailto:naveenacp24@gmail.com"
                     style={{ color: "white", textDecoration: "none"}} 
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaPhone
+                    <SiGmail
                       style={{ marginRight: "8px" }}
                       className="icon-colour  home-social-icons"
                     />{" "}
+                    naveenacp24@gmail.com
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://github.com/naveenias"
+                    style={{ color: "white", textDecoration: "none"}} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub
+                      style={{ marginRight: "8px" }}
+                      className="icon-colour  home-social-icons"
+                    />{" "}
+                    https://github.com/naveenias
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.linkedin.com/in/naveen4455/"
+                    style={{ color: "white", textDecoration: "none"}} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn
+                      style={{ marginRight: "8px" }}
+                      className="icon-colour  home-social-icons"
+                    />{" "}
+                    www.linkedin.com/in/naveen4455
+                  </a>
+                </li>
+              </ul>
+              <ul className="home-about-social-links">
+                <li className="social-icons">
+                  <a
+                    href="tel:+919632557859"  
+                    style={{ color: "white", textDecoration: "none" }}
+                  >
+                    <FaPhone
+                      style={{ marginRight: "8px" }}
+                      className="icon-colour  home-social-icons"
+                    />
                     +91 9632557859
+                  </a>
+                </li>
+                <li className="social-icons">
+              <a
+                href="https://wa.me/919632557859"
+                style={{ color: "white", textDecoration: "none" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp 
+                  style={{ marginRight: "8px" }}
+                  className="icon-colour  home-social-icons" />
+                Chat on Whatsapp
+              </a>
+            </li>
+              </ul>
+              <ul className="home-about-social-links2">
+                <li className="social-icons">
+                  <a
+                    href="tel:+919632557859"  
+                    style={{ color: "white", textDecoration: "none" }}
+                  >
+                    <FaPhone
+                      style={{ marginRight: "8px" }}
+                      className="icon-colour  home-social-icons"
+                    />
+                    +91 9632557859
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://wa.me/919632557859"
+                    style={{ color: "white", textDecoration: "none" }}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp 
+                      style={{ marginRight: "10px", marginLeft: "-15px" }}
+                      className="icon-colour  home-social-icons" />
+                     Chat on Whatsapp
                   </a>
                 </li>
                 <li className="social-icons">
@@ -111,7 +194,6 @@ function Home() {
                     www.linkedin.com/in/naveen4455
                   </a>
                 </li>
-                
               </ul>
             </Col>
           </Row>

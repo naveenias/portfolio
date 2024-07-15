@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 function Footer() {
@@ -20,14 +20,26 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
+          <li className="social-icons">
+            <a
+              href="tel:+919632557859"  
+              style={{ color: "white", textDecoration: "none" }}
+            >
+              <FaPhone
+                style={{ marginRight: "8px" }}
+                className="icon-colour  home-social-icons"
+              />
+              
+            </a>
+          </li>
+          <li className="social-icons">
               <a
-                href="https://github.com/naveenias"
+                href="https://wa.me/919632557859"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub className="icon-colour  home-social-icons" />
+                <FaWhatsapp className="icon-colour  home-social-icons" />
               </a>
             </li>
             <li className="social-icons">
@@ -50,7 +62,16 @@ function Footer() {
                 <FaLinkedinIn className="icon-colour  home-social-icons" />
               </a>
             </li>
-            
+            <li className="social-icons">
+              <a
+                href="https://github.com/naveenias"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub className="icon-colour  home-social-icons" />
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>

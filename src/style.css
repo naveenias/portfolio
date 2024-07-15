@@ -253,7 +253,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 10px !important;
+  padding-top: 0px !important;
 }
 
 .home-section {
@@ -341,12 +341,9 @@ button:focus {
 
   .profile{
     display: block;
-    width: 100%;
+    width: 104%;
+    margin-left: -8px;
   }
-  
-  
-  
-  
   .home-about-social {
     padding-top: 10% !important;
   }
@@ -355,6 +352,9 @@ button:focus {
     font-size: 15px !important;
   }
   
+  .home-section{
+    padding-top: 5px !important;
+  }
 }
 
 .myAvtar {
@@ -366,6 +366,19 @@ button:focus {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+  }
+
+  .home-about-social-links{
+    display: none !important;
+  }
+  
+  .home-about-social-links2{
+    justify-content: center !important;
+    padding-top: 15px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+    display: block;
   }
 }
 
@@ -397,13 +410,16 @@ button:focus {
 .home-about-social-links {
   justify-content: center !important;
   padding-top: 15px !important;
-  display: inline-block !important;
+  display: inline-block;
   position: relative !important;
   padding-inline-start: 0 !important;
 }
 
+.home-about-social-links2{
+  display: none;
+}
+
 .home-social-icons {
-  
   position: relative !important;
   display: inline-block !important;
   width: 30px !important;
