@@ -642,11 +642,7 @@ button:focus {
   transition: transform 0.2s, color 0.2s;
 }
 
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
+
 
 .tech-icons:hover {
   transform: scale(1.1);
@@ -674,7 +670,13 @@ button:focus {
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
+    
   }
+  .blockquote{
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+  
 }
 /* --------- */
 /* Resume */
