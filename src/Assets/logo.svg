@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Styling for NM text -->
-  <text x="0" y="65" font-size="40" font-family="Arial" fill="var(--imp-text-color)" font-weight="bold" text-anchor="start">NM</text>
-  <!-- Square dot styling -->
-  <rect x="63" y="58" width="8" height="8" fill="var(--imp-text-color)" />
-</svg>
